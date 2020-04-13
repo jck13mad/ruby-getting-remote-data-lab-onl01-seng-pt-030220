@@ -8,7 +8,8 @@ class GetRequester
   end
   
   def get_response_body
-    @url.open.string
+    uri = URI.parse(self)
+    uri.open.string
   end
   
   def parse_json
