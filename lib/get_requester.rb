@@ -1,4 +1,6 @@
 # Write your code here
+require "open"
+
 class GetRequester
   
   def initialize(url)
