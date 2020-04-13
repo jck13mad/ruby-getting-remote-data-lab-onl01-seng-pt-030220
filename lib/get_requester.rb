@@ -8,7 +8,7 @@ class GetRequester
   end
   
   def get_response_body
-    self.open 
+    @url.open.string
   end
   
   def parse_json
