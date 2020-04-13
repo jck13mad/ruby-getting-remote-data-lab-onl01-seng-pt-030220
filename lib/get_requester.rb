@@ -10,7 +10,7 @@ class GetRequester
   end
   
   def parse_json
-    
+    self.open 
   end
   
   
