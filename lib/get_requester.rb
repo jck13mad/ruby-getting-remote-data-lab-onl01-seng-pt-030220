@@ -6,11 +6,11 @@ class GetRequester
   end
   
   def get_response_body
-    
+    self.open 
   end
   
   def parse_json
-    self.open 
+    
   end
   
   
