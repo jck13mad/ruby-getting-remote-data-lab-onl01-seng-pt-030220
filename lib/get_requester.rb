@@ -1,5 +1,5 @@
 # Write your code here
-require "open"
+require "open-uri"
 
 class GetRequester
   
